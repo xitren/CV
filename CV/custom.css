@@ -1,0 +1,86 @@
+/* ------------------------------------------------------------- */
+
+/* ---------------------------BRKOR----------------------------- */
+
+/* ------------------------------------------------------------- */
+
+
+
+/* General Styles ---------------------------------------------- */
+
+
+
+body {
+
+    background: url('../img/bg.png');
+
+    background-position: top center;
+
+    background-attachment: fixed;
+
+    background-color: #fff;
+
+    color: #000;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 13px;
+
+    overflow-x: hidden;
+
+}
+.admin-bar #mini-nav{top: 32px;}
+#mini-nav {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#mini-nav ul {
+    width: 100%;
+    border: 0;
+    padding: 7px 0 10px 0;
+    left: 0px;
+    
+}
+
+#mini-nav ul li {
+    list-style-image: none;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0px; 
+}
+#mini-nav ul > li{
+    list-style-type: disc;
+}
+#mini-nav ul li.dropdown > a{padding: 0px;}
+#mini-nav ul li a{font-weight: bold; padding: 3px 20px; margin: 0px; border-bottom: none;}
+#mini-nav ul li:first-child {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+#mini-nav .dropdown-menu {
+    margin: 0;
+    font-size: 14px;
+    list-style: none;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#mini-nav .dropdown-menu > .active > a, 
+#mini-nav .dropdown-menu > .active > a:hover, 
+#mini-nav .dropdown-menu > .active > a:focus {
+    background-color: #000;
+    color: #fff;
+}
+#mini-nav ul.dropdown-menu li ul{display: block; position: relative;}

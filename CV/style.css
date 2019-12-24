@@ -1,0 +1,24 @@
+/*
+Theme Name: CV Resume Timeline
+Theme URI: http://www.plutonthemes.com
+Version: 1.0
+Description: PlutonThemes specializes in designing elegant, clean and beautiful WordPress Themes for both beginners & experts.
+Author: PlutonThemes
+Author URI: http://www.plutonthemes.com
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: white, custom-background, threaded-comments, translation-ready, custom-menu
+Text Domain: plutonthemes
+*/
+
+.wp-caption {text-align: center;}
+.wp-caption-text{text-align: center;}
+.sticky{border: 2px solid #808080;overflow: hidden;padding:  20px 20px 20px 0;background: rgba(255, 255, 255, 0.25) none repeat scroll 0 0;}
+.light-version .sticky{border: 2px solid #808080;overflow: hidden;padding:  20px 20px 20px 0;background: rgba(0, 0, 0, 0.25) none repeat scroll 0 0;}
+.sticky .blog-list-item ul li .desc p, .blog-single ul li .desc p{color: #fff;}
+.light-version .sticky .blog-list-item ul li .desc p, .blog-single ul li .desc p{color: #000;}
+.bypostauthor{padding: 0px;}
+.gallery-caption{text-align: center;}
+.alignright{text-align: right;}
+.aligncenter{text-align: center;}
+.alignleft{text-align: left;}
